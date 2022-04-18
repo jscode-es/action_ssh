@@ -1,0 +1,6 @@
+name: "Deploy CI/CD SHH"
+description: "Sync file SSH and CI/CD"
+author: "Sergio Gonzalez ( sgonzalez@jscode.es )"
+runs:
+  using: node16
+  main: dist/index.js
